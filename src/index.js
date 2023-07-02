@@ -9,4 +9,4 @@ app.get('/', (req, res) => {
   })
 })
 const port = process.env.NODE_ENV === 'production'? process.env.PORT: 3003
-app.listen(port, () => {'Listening...'})
+app.listen(port, () => {console.info('Listening...')})
